@@ -1,8 +1,12 @@
 {
-    "build": {
-      "env": {
-        "NODE_VERSION": "16"
+    "builds": [
+      {
+        "src": "nuxt.config.js",
+        "use": "@nuxtjs/vercel-builder",
+        "config": {
+          "outputDirectory": "dist"
+        }
       }
-    }
+    ]
   }
   
