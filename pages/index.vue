@@ -5,7 +5,7 @@
     <div v-if="error">Error: {{ error.message }}</div>
   </div>
 </template>
-
+ 
 <script>
 import gql from 'graphql-tag';
 import AlbumGrid from '@/components/AlbumGrid.vue';
